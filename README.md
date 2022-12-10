@@ -8,9 +8,11 @@
 
 1.[Mirai Console Loader](https://github.com/iTXTech/mirai-console-loader)
 
-2.[Python](https://www.python.org/downloads/)（建议使用Python 3.7+）
+2.[mirai-api-http](https://github.com/project-mirai/mirai-api-http)
 
-3.[MySQL Server](https://dev.mysql.com/downloads/installer/)
+3.[Python](https://www.python.org/downloads/)（建议使用Python 3.7+）
+
+4.[MySQL Server](https://dev.mysql.com/downloads/installer/)
 
 
 ## 如何构建

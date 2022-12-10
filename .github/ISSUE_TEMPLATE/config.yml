@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 2kbot项目页
+    url: https://github.com/Abjust/2kbot
+    about: 2kbot Python Edition是2kbot的移植版本，因此，如果你的Issue并非有关Bug的（比如新功能建议），请在原版2kbot项目页的Issues板块提出

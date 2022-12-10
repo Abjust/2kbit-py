@@ -1,0 +1,84 @@
+name: 有虫子在机器人身上爬（悲）
+description: 选这个，帮助2kbot Python Edition解决他身上的问题！
+title: '[Bug?!]: '
+labels: ["bug?"]
+assignees: ["Abjust"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 首先，感谢你为2kbot Python Edition提出宝贵的意见！
+        ## 以下是一些注意事项，请务必阅读让我能够更容易处理
+
+        ### ❗ | 请确保你的意见是独特的，别人没有捷足先登。
+        ### ❔ | 尽量截取完整的聊天记录，不要断章取义
+        ### ⚠ | 如果涉及个人信息，请务必打个码
+
+        ## 如果您不知道如何有效、精准地表述，我建议您先阅读《提问的智慧》
+        链接: [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
+        ### （模板来源：[HanBot](https://github.com/daizihan233/HanBot)）
+        ---
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 请确保您已阅读以上注意事项，并勾选下方的确认框。
+      options:
+        - label: "如果你正在使用修改过的2kbot Python Edition版本：我确定这个bug是由于2kbot Python Edition本身的代码缺陷导致的，而非修改版本中修改过的部分所存在的缺陷。"
+          required: false
+        - label: "我已经仔细阅读上述教程和 [\"《提问的智慧》\"](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)。"
+          required: true
+        - label: "我十分肯定，绝对不是因为我菜才这样。"
+          required: true
+        - label: "我确定这是一个有意义的Issue，且目前没有解决方案。"
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## 相关信息
+        好的，那我们现在开始罢！
+  
+  # Input | Edition
+  - type: input
+    id: using-edition
+    attributes:
+      label: 使用的2kbot Python Edition版本
+      description: |
+        如果你使用的是原版2kbot Python Edition（包括你自己克隆且除了修改程序名称以外，未经任何修改的版本），请写“2kbot Python Edition”以及现在在用的版本号（比如“2kbot Python Edition 1.0.0-pe”），如果你使用的是修改过的2kbot Python Edition版本，请写出这个修改版的名称以及版本号（比如“Mica App 5.1.2”）。
+    validations:
+      required: true
+
+
+  # Input | Reproduce
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: 重现步骤
+      description: |
+        我需要执行哪些操作才能让 bug 出现？
+        简洁清晰的重现步骤能够帮助我更迅速地定位问题所在。
+    validations:
+      required: true
+
+  # Input | Expected result
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望的结果是什么？
+    validations:
+      required: true
+
+  # Input | Actual result
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际的结果是什么？
+    validations:
+      required: true
+
+
+  # Optional | Extra description
+  - type: textarea
+    id: extra-desc
+    attributes:
+      label: 补充说明（可选）

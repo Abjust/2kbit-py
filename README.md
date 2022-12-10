@@ -14,6 +14,8 @@
 
 4.[MySQL Server](https://dev.mysql.com/downloads/installer/)
 
+5.[NoneBot 2](https://github.com/nonebot/nonebot2)
+
 
 ## 如何构建
 

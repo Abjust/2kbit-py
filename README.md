@@ -16,10 +16,18 @@
 
 5.[NoneBot2](https://github.com/nonebot/nonebot2)
 
+6.[PyCharm](https://www.jetbrains.com/pycharm/download)（如果没有开源许可证，建议使用社区版）
+
 
 ## 如何构建
 
-因开发工作尚未进行，因此暂时不提供构建方法（而且我也不知道在项目还没开发的情况下，如何构建这个项目）
+1.打开PyCharm
+
+2.点击“从 VCS 获取”（Get from VCS）
+
+3.URL填https://github.com/Abjust/2kbot-py.git
+
+4.点击克隆（Clone）
 
 ## 注意事项
 

@@ -14,9 +14,7 @@
 
 4.[MySQL Server](https://dev.mysql.com/downloads/installer/)
 
-5.[NoneBot2](https://github.com/nonebot/nonebot2)
-
-6.[PyCharm](https://www.jetbrains.com/pycharm/download)（如果没有开源许可证，建议使用社区版）
+5.[PyCharm](https://www.jetbrains.com/pycharm/download)（如果没有开源许可证，建议使用社区版）
 
 
 ## 如何构建

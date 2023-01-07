@@ -10,7 +10,7 @@
 
 2.[mirai-api-http](https://github.com/project-mirai/mirai-api-http)
 
-3.[Python3](https://www.python.org/downloads/)（建议使用Python 3.7+）
+3.[Python3](https://www.python.org/downloads/)（请使用Python 3.8+）
 
 4.[MySQL Server](https://dev.mysql.com/downloads/installer/)
 

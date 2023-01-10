@@ -39,6 +39,6 @@ Python Edition代码片段投入线上使用的项目，都将需要**开源**�
 
 1.[HanTools](https://github.com/daizihan233)
 
-2.[JetBrains](https://www.jetbrains.com/)（感谢JetBrains支持2kbit-java作为自由软件的开发事业）
+2.[JetBrains](https://www.jetbrains.com/)（感谢JetBrains支持2kbit-py作为自由软件的开发事业）
 
 3.微软红星工作室的各位同志们

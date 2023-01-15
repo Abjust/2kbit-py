@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "2kbit-py"
+version = "1.0.0"
+description = "2kbit Python Edition"
+authors = ["Abjust <2533898108@qq.com>"]
+readme = "README.md"
+packages = [{include = "2kbit_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+creart-graia = "^0.1.5"
+graia-ariadne = "^0.10.3"
+graia-broadcast = "^0.19.1"
+graia-saya = "^0.0.17"
+mysql-connector-python = "^8.0.31"
+creart = "^0.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
